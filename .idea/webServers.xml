@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3f1ad5ed-a91d-4e82-b32d-528f44a4f7af" name="dakkoloans" url="http://103.74.118.14">
+        <fileTransfer host="103.74.118.14" port="21" rootFolder="/domains/cathtmlcss.net/public_html/themes/2019/06/dakkoloans/">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
