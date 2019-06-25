@@ -1,10 +1,10 @@
 <div class="uk-section-large"></div>
 <div id="dak-geton" class="uk-section">
     <div class="uk-container uk-container-small">
-        <div class="uk-child-width-1-2@m uk-flex-bottom uk-grid-large" uk-grid>
+        <div class="uk-child-width-1-2@s uk-flex-bottom uk-grid-large" uk-grid="parallax: 100">
             <div>
                 <div class="uk-position-relative">
-                    <img class="uk-position-bottom img-mobile" src="imgs/mobile.png" alt="">
+                    <img class="uk-position-bottom img-mobile uk-visible@s" src="imgs/mobile.png" alt="">
                 </div>
             </div>
             <div>

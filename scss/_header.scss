@@ -1,0 +1,50 @@
+#dak-header{
+  .uk-navbar-item{
+    min-height: 80px;
+  }
+  .uk-logo{
+    img{
+      height: 60px;
+    }
+  }
+  .uk-navbar-nav{
+    >li{
+      >a{
+        @extend .uk-navbar-item;
+        font-family:'Montserrat SemiBold';
+        font-size: 13px;
+        color: #4a4a4a;
+        position: relative;
+        &:hover{
+          color: #f58007;
+          &:before{
+            right: 15px;
+          }
+        }
+        &:before{
+          content: '';
+          display: block;
+          position: absolute;
+          left: 15px;
+          right: calc(102% - 15px);
+          bottom: 20px;
+          height: 2px;
+          background-color: #f58007;
+          transition: .3s ease-in-out;
+          transition-property: right;
+        }
+      }
+    }
+  }
+}
+.dak-login{
+  border-radius: 23px;
+  border: solid 2px #f58007;
+  font-family:'Montserrat SemiBold';
+  font-size: 13px;
+  &:hover{
+    background-color: #f58007;
+    color: #ffffff;
+    border-color: #f58007;
+  }
+}

@@ -1,4 +1,4 @@
-<?php $title = "Trang chủ"; ?>
+<?php $title = "Hỏi đáp"; ?>
 <?php include "header.php"; ?>
-<?php include "contact.php"; ?>
+<?php include "geton.php"; ?>
 <?php include "footer.php"; ?>

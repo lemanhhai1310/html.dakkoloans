@@ -40,3 +40,31 @@
      theme_color="#24892d">
 </div>
 <section id="app" class="uk-height-viewport uk-offcanvas-content uk-overflow-hidden">
+<header id="dak-header">
+    <div class="uk-container">
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+
+            <div class="uk-navbar-left">
+
+                <a class="uk-navbar-item uk-logo" href="."><img src="imgs/logo-dakko.png" alt=""></a>
+
+            </div>
+
+            <div class="uk-navbar-right">
+
+                <ul class="uk-navbar-nav">
+                    <li class="uk-active"><a href="#">How it works</a></li>
+                    <li><a href="#">#Dakko Blog</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Why US</a></li>
+                </ul>
+
+                <div class="uk-navbar-item">
+                    <a href="#" class="uk-button dak-login uk-button-default">SIGN IN</a>
+                </div>
+
+            </div>
+
+        </nav>
+    </div>
+</header>

@@ -1,5 +1,6 @@
 #dak-geton{
   background-color: rgba(46, 102, 195, 0.9);
+  padding-bottom: 0px;
 }
 .img-google-play{
   width: 150px;
@@ -9,13 +10,18 @@
 }
 .img-mobile{
   bottom: -60px;
+  @media (max-width: 560px) {
+    position: static !important;
+  }
 }
 .geton-title{
   font-family:'Montserrat SemiBold';
   color: #ffffff;
+  font-size: 24px;
 }
 .geton-desc{
   color: #ffffff;
+  line-height: 1.89;
   a{
     color: #ffffff;
     font-family:'Montserrat SemiBold';
